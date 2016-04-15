@@ -1,10 +1,10 @@
-https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists/forums/session-5-sensors-and-features-generating-useful-inputs-for-machine-learning/threads/leapmotion-in-max-for-live
+_https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists/forums/session-5-sensors-and-features-generating-useful-inputs-for-machine-learning/threads/leapmotion-in-max-for-live_
 
-LeapMotion in Max for Live...??
+#LeapMotion in Max for Live...??
 
 ---------------------------
-Posted By Sharon Stewart
-Apr 14, 2016 @ 9:11pmBST
+__Posted By Sharon Stewart
+Apr 14, 2016 @ 9:11pmBST__
 
 are any of you able to create a Max for Live patch that can pick up the data being sent from the LeapMotion_Mac executable (through Wekinator and/or WekiInputHelper) from the course and parse it out so we can see what's going on, and the data can be used to directly control Ableton FX?
 this would be different to the AbletonOSC or LeapOSC applications by Gene Kogan (or the MAX/MSP slider application) in that it would be a direct link from the LeapMotion_Mac executable to a Max for Live patch.
@@ -18,8 +18,8 @@ i'd love to do this, but don't have the skills yet... pffff...
 
 
 ---------------------------
-R:Omar Costa Hamido
-Apr 14, 2016 @ 10:52pmBST
+__R:Omar Costa Hamido
+Apr 14, 2016 @ 10:52pmBST__
 
 Dam... I'm too fast.
 Here ya go: https://github.com/omarcostahamido/One-Quick-Solution_Patches/tree/master/M4L
@@ -31,7 +31,7 @@ Omar
 
 
 ---------------------------
-R:Sharon Stewart
-Apr 15, 2016 @ 8:50amBST
+__R:Sharon Stewart
+Apr 15, 2016 @ 8:50amBST__
 
 dam(n)! within a couple of hours. this is amazing :)
