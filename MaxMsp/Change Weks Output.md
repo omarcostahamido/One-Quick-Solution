@@ -13,4 +13,17 @@ How can I change the value of a certain wekinator output through MAX? what kind 
 Thank you for your time
 
 Jorge
+
 ---------------------------
+__Omar Costa Hamido
+Apr 28, 2016 @ 11:03pmBST__
+
+Here you go:
+
+https://github.com/omarcostahamido/One-Quick-Solution_Patches/raw/master/MaxMsp/Change Weks Output.maxpat
+
+Best,
+
+Omar
+
+P.S. You might also want to take a look at this thread: https://www.kadenze.com/forums/file-submission-9-creating-your-own-feature-extractor/threads/max-msp-osc-messagges-question
