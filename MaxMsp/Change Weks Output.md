@@ -20,7 +20,7 @@ Apr 28, 2016 @ 11:03pmBST__
 
 Here you go:
 
-https://github.com/omarcostahamido/One-Quick-Solution_Patches/raw/master/MaxMsp/Change Weks Output.maxpat
+https://github.com/omarcostahamido/One-Quick-Solution_Patches/raw/master/MaxMsp/Change%20Weks%20Output.maxpat
 
 Best,
 
