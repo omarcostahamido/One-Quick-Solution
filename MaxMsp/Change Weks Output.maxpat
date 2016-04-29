@@ -158,11 +158,11 @@
 					"fontsize" : 12.0,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 299.0, 255.5, 148.0, 20.0 ],
-					"text" : "route /wek/control/outputs"
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 299.0, 255.5, 165.0, 20.0 ],
+					"text" : "prepend /wek/control/outputs"
 				}
 
 			}
@@ -348,7 +348,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 87.5, 208.0, 62.0 ],
+					"patching_rect" : [ 59.0, 87.5, 208.0, 48.0 ],
 					"text" : "\nunpack x ouputs\n\n",
 					"textjustification" : 2
 				}
@@ -365,7 +365,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 59.0, 171.5, 208.0, 144.0 ],
+					"patching_rect" : [ 59.0, 171.5, 208.0, 131.0 ],
 					"text" : "Change it...\n\n\n\n\n\n\n\n\n",
 					"textjustification" : 2
 				}
