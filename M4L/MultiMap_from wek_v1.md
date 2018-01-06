@@ -1,6 +1,6 @@
 _https://www.kadenze.com/courses/machine-learning-for-musicians-and-artists/forums/session-5-sensors-and-features-generating-useful-inputs-for-machine-learning/threads/leapmotion-in-max-for-live_
 
-#LeapMotion in Max for Live...??
+# LeapMotion in Max for Live...??
 
 ---------------------------
 __Posted By Sharon Stewart
