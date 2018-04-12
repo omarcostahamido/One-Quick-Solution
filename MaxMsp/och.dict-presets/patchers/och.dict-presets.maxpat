@@ -67,7 +67,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 78.0, 111.0, 82.0, 22.0 ],
+					"patching_rect" : [ 86.333336, 108.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "s och.dict-out"
 				}
@@ -97,14 +97,14 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 39.0, 72.0, 136.0, 22.0 ],
+					"patching_rect" : [ 39.0, 72.0, 161.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"embed" : 1,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict settings @embed 1"
+					"text" : "dict settings.json @embed 1"
 				}
 
 			}

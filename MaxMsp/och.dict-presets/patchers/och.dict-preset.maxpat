@@ -39,12 +39,13 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 260.0, 339.0, 73.0, 20.0 ],
+					"patching_rect" : [ 248.0, 325.0, 85.0, 34.0 ],
 					"style" : "",
-					"text" : "Apr 3, 2018"
+					"text" : "Apr 3, 2018\nrev. Apr 11"
 				}
 
 			}
@@ -64,24 +65,26 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-8",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 207.0, 102.0, 99.0, 22.0 ],
+					"patching_rect" : [ 207.0, 102.0, 102.0, 36.0 ],
 					"style" : "",
-					"text" : "loadmess get #1"
+					"text" : "loadmess get #1 @defer 1"
 				}
 
 			}
 , 			{
 				"box" : 				{
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 51.0, 102.0, 60.0, 22.0 ],
+					"patching_rect" : [ 51.0, 102.0, 56.0, 36.0 ],
 					"style" : "",
 					"text" : "set #1 $1"
 				}
@@ -102,11 +105,12 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 51.0, 263.0, 55.0, 22.0 ],
+					"patching_rect" : [ 51.0, 263.0, 51.0, 36.0 ],
 					"style" : "",
 					"text" : "route #1"
 				}

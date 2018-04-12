@@ -38,13 +38,14 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
+					"id" : "obj-3",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 563.0, 456.0, 73.0, 20.0 ],
+					"patching_rect" : [ 550.0, 442.0, 85.0, 34.0 ],
 					"style" : "",
-					"text" : "Apr 3, 2018"
+					"text" : "Apr 3, 2018\nrev. Apr 11"
 				}
 
 			}
@@ -119,7 +120,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.666672, 371.0, 82.0, 22.0 ],
+					"patching_rect" : [ 146.0, 372.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "s och.dict-out"
 				}
@@ -132,7 +133,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 122.0, 301.0, 73.0, 22.0 ],
+					"patching_rect" : [ 107.0, 301.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "r och.dict-in"
 				}
@@ -166,19 +167,23 @@
 			}
 , 			{
 				"box" : 				{
+					"data" : 					{
+
+					}
+,
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "dictionary", "", "", "" ],
-					"patching_rect" : [ 122.0, 337.0, 99.0, 22.0 ],
+					"patching_rect" : [ 107.0, 337.0, 136.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0,
+						"embed" : 1,
 						"parameter_enable" : 0
 					}
 ,
 					"style" : "",
-					"text" : "dict settings.json"
+					"text" : "dict settings @embed 1"
 				}
 
 			}
@@ -218,14 +223,14 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "och.dict-preset.maxpat",
-				"bootpath" : "~/Documents/Omar/Aulas/CALIFORNIA/UCI/Courses&Places/Music 215B - Computer Music Composition and Production/week 1",
+				"bootpath" : "~/Documents/Max 7/Projects/och.dict-presets/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "och.dict-presets.maxpat",
-				"bootpath" : "~/Documents/Omar/Aulas/CALIFORNIA/UCI/Courses&Places/Music 215B - Computer Music Composition and Production/week 1",
+				"bootpath" : "~/Documents/Max 7/Projects/och.dict-presets/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
