@@ -1,6 +1,7 @@
 # Jacktrip & chill
 
 ### *A quick-and-dirty step-by-step manual for getting you up-and-running with Jacktrip.*
+
 #### Assuming you're on windows.
 
 ## **Part I, installation**:
@@ -32,19 +33,19 @@
 
   2. navigate to the Jacktrip installation folder, using the cd command, which should be C:\Jacktrip\
 
-  3. - "cd" means change directory. use "cd .." to go up one folder level, use "cd foldername" to enter the 'foldername' folder
+  		- "cd" means change directory. use "cd .." to go up one folder level, use "cd foldername" to enter the 'foldername' folder
 
-  4. type the command: jacktrip -s
+  3. type the command: jacktrip -s
 
 - If, on the other hand, you are the client for the jacktrip session you'll need to:
 
 	1. do the same steps 1 and 2
   2. type the command: jacktrip -c ipnumber
 
-  	- where "ipnumber" is the ip number of the jacktrip host
-     - you can find your public ip just by simply googling "ip" {[1](https://www.whatismyip.com/)}{[2](http://www.meuip.com/)}
+  		- where "ipnumber" is the ip number of the jacktrip host
+     	- you can find your public ip just by simply googling "ip" {[1](https://www.whatismyip.com/)}{[2](http://www.meuip.com/)}
 
-- The command prompt will let you know if connection was succesfull
+- The command prompt will let you know if connection was successful
 
 ## **Part IV, connecting things together**:
 
@@ -52,7 +53,7 @@
 2. A JackTrip group on the left (signal receiving) and another on the right (signal sending) should appear for every Jacktrip session that you are participating in, either as host or client.
 3. If you open an application such as Audacity or Ableton Live, you can now change your audio driver to Asio>Jack router, which will open similar jack connections for those apps.
 
-## **Part V, solving problems**:
+## **Part V, solving problemsf**:
 
 - Not every time things go as smooth as we want. In fact, in telematics, things rarely do. Just keep in mind that there are many variables at play.
 
@@ -60,7 +61,7 @@
 
 - Then, check for your audio system: are you receiving sound, are you sending sound, in other words, can you do your trivial audio-related tasks?
 
-- Only then check jack related software: did the jacktrip connection droppped, is port audio still running, are we using the same sample rate and buffer size settings?
+- Only then check jack related software: did the jacktrip connection dropped, is port audio still running, are we using the same sample rate and buffer size settings?
 
 - If you need to change SR and Buffer settings you can
 
