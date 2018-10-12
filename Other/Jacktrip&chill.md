@@ -1,6 +1,7 @@
 # Jacktrip & chill
 
-Assuming you're on windows:
+### *A quick-and-dirty step-by-step manual for getting you up-and-running with Jacktrip.*
+#### Assuming you're on windows.
 
 ## **Part I, installation**:
 
