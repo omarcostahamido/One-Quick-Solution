@@ -79,3 +79,4 @@
   - Press OK to save changes
 
   - Run Jack Portaudio again
+- For recent jack installations on fully up to date windows machines, you might want to take a look at this slightly annoying bugfix: [https://github.com/jackaudio/jack2/issues/303](https://www.google.com/url?q=https://github.com/jackaudio/jack2/issues/303&sa=D&ust=1539344233370000&usg=AFQjCNHmm_4ZQ9jZejFYDIhaVSIRAOBSUg)
