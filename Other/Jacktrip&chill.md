@@ -52,7 +52,7 @@
 2. A JackTrip group on the left (signal receiving) and another on the right (signal sending) should appear for every Jacktrip session that you are participating in, either as host or client.
 3. If you open an application such as Audacity or Ableton Live, you can now change your audio driver to Asio>Jack router, which will open similar jack connections for those apps.
 
-## **Part V, fixing stuff**:
+## **Part V, solving problems**:
 
 - Not every time things go as smooth as we want. In fact, in telematics, things rarely do. Just keep in mind that there are many variables at play.
 
