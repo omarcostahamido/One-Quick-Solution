@@ -147,7 +147,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 74.5, 238.0, 77.0, 22.0 ],
+					"patching_rect" : [ 72.0, 238.0, 77.0, 22.0 ],
 					"text" : "route symbol"
 				}
 
@@ -159,24 +159,77 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 43.5, 280.0, 50.0, 22.0 ],
+					"patching_rect" : [ 41.0, 280.0, 50.0, 22.0 ],
 					"text" : "G"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"coll_data" : 					{
+						"count" : 12,
+						"data" : [ 							{
+								"key" : 0,
+								"value" : [ "C" ]
+							}
+, 							{
+								"key" : 1,
+								"value" : [ "C#" ]
+							}
+, 							{
+								"key" : 2,
+								"value" : [ "D" ]
+							}
+, 							{
+								"key" : 3,
+								"value" : [ "D#" ]
+							}
+, 							{
+								"key" : 4,
+								"value" : [ "E" ]
+							}
+, 							{
+								"key" : 5,
+								"value" : [ "F" ]
+							}
+, 							{
+								"key" : 6,
+								"value" : [ "F#" ]
+							}
+, 							{
+								"key" : 7,
+								"value" : [ "G" ]
+							}
+, 							{
+								"key" : 8,
+								"value" : [ "G#" ]
+							}
+, 							{
+								"key" : 9,
+								"value" : [ "A" ]
+							}
+, 							{
+								"key" : 10,
+								"value" : [ "A#" ]
+							}
+, 							{
+								"key" : 11,
+								"value" : [ "B" ]
+							}
+ ]
+					}
+,
 					"id" : "obj-18",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 74.5, 196.0, 111.0, 22.0 ],
+					"patching_rect" : [ 72.0, 196.0, 121.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"embed" : 0
+						"embed" : 1
 					}
 ,
-					"text" : "coll notes @embed"
+					"text" : "coll notes @embed 1"
 				}
 
 			}
@@ -224,7 +277,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 193.25, 196.0, 29.5, 22.0 ],
+					"patching_rect" : [ 195.25, 196.0, 29.5, 22.0 ],
 					"text" : "/ 12"
 				}
 
