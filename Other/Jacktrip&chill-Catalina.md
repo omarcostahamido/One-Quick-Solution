@@ -2,9 +2,10 @@
 
 ### *A quick-and-dirty step-by-step manual for getting you up-and-running with Jacktrip.*
 
-#### Assuming you're on MAC CATALINA.
+#### Assuming you're on MAC OS with CATALINA.
 
-### Disclaimer: This short tutorial describes the simplest process of getting Jacktrip running on Mac OSX 10.15.3 as of April 11, 2020. The linked software is here only as a means to document this process. Everything here is provided as is. By following these instructions you accept to take them at your own risk, and acknowledge that I won't provide any further support.
+## Disclaimer: 
+This short tutorial describes the simplest process of getting Jacktrip running on Mac OSX 10.15.3 as of April 11, 2020. The linked software is here only as a means to document this process. Everything here is provided as is. By following these instructions you accept to take them at your own risk, and acknowledge that I won't provide any further support.
 
 ## **Part I, installation**:
 
@@ -48,7 +49,6 @@
 
   1. ask for the server's public IP address
   2. type the command: jacktrip -c ipnumber
-
      - where "ipnumber" is the public ip number of the jacktrip host
 - The command prompt will let you know if connection was successful
 
@@ -78,4 +78,4 @@
 
 #### **Acknowledgments**
 
-Many thanks to Juan Parra Cancino, Michael Dessen, Sarah Weaver, Chris Chafe, and others. 
+Many thanks to Juan Parra Cancino, Michael Dessen, Sarah Weaver, Chris Chafe, Juan-Pablo Caceres, and others.
