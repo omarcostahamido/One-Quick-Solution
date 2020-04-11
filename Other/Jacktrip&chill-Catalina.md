@@ -13,7 +13,7 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 1. This is a clean install tutorial. If you already have a jack and jacktrip installation, I would reccomend first uninstalling those previous Jack and Jacktrip instals.
 2. Download and install this version of [Jack](https://www.dropbox.com/s/ru3r7ddz53n2qn6/JackOSX.0.92_b3.zip?dl=1), and [Jacktrip](https://www.dropbox.com/s/u9tac9o4bvczip3/JackTrip.pkg?dl=1). Note that after installing Jack, you will need to restart your system (time to save those damn tabs!).
 
-## **Part II, network configuration:**:
+## **Part II, network configuration:**
 
 1. Open System Preferences > Network
 2. On the top of this window, click the Locations dropdown menu > edit locations > + > give it a name like "jacktripHome" > Done > and then click "Apply" at the bottom of the Network window.
