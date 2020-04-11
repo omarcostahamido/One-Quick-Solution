@@ -33,17 +33,18 @@ This short tutorial describes the simplest process of getting Jacktrip running o
    1. We are assuming that you are using an audio interface which is already set as the default input and output, as per your "Audio MIDI Setup" Mac settings.
 3. At this point you can just click "start" and it should start the jack server 
    1. Do not mistake this with jacktrip server. Jacktrip relies on Jack, thus the name. Qjackctl is the GUI for jack that allows us to start this service. Jacktrip is a command line program that connects to jack server and to other users across the interwebs.
-   2. If things didn't run smooth up to this point then refer to the links at the bottom to search for more help. Good luck!
+   2. If things didn't run smooth up to this point then refer to the [links](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#part-v-solving-problems) at the bottom to search for more help. Good luck!
 
 ## **Part IV, running jacktrip:**
 
 1. open the terminal (put on your hacker gloves first, if that's your thing)
 2. type jacktrip -v. It should spit out something like: "JackTrip VERSION: 1.1"
-   1. if that was not the case... again refer to the links at the bottom.
+   1. if that was not the case... again refer to the [links](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#part-v-solving-problems) at the bottom.
 3. We are ready to connect. You have two options:
 
 - If you're the host for the jacktrip session you'll need to
-  3. type the command: jacktrip -s
+  
+  1. type the command: jacktrip -s
   2. share your public IP with the partners that you want to connect to you. You can easily find this with pages like [this one](https://whatismyipaddress.com/)
 - If, on the other hand, you are the client for the jacktrip session you'll need to:
 
