@@ -3,6 +3,7 @@
 ### *A quick-and-dirty step-by-step manual for getting you up-and-running with Jacktrip.*
 
 #### Assuming you're on MAC OS with CATALINA.
+(windows version, as of Oct 2018 [here](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill.md))
 
 ## Disclaimer: 
 This short tutorial describes the simplest process of getting Jacktrip running on Mac OSX 10.15.3 as of April 11, 2020. The linked software is here only as a means to document this process. Everything here is provided as is. By following these instructions you accept to take them at your own risk, and acknowledge that I won't provide any further support.
