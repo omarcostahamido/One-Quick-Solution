@@ -73,3 +73,9 @@
 - https://github.com/jacktrip/jacktrip
   - https://docs.google.com/document/d/1YLX8NatB_Ktdr24LyVg7h_P3zwG1lh1D0A0e733mCYo/edit
 - http://chrischafe.net/online-jamming-and-concert-technology-online-course/
+
+
+
+#### **Acknowledgments**
+
+Many thanks to Juan Parra Cancino, Michael Dessen, Sarah Weaver, Chris Chafe, and others. 
