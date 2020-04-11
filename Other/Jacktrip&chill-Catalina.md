@@ -69,11 +69,11 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 - Only then check jack related software: did the jacktrip connection dropped, is jack server still running, are we using the same sample rate and buffer size settings?
 - Ask a friend to help you!
 - Visit these jacktrip-related link resources:
-- https://ccrma.stanford.edu/software/jacktrip/
+	- https://ccrma.stanford.edu/software/jacktrip/
 	- https://mdessen.com/portfolio/networked-music-performance-resources/
-- https://github.com/jacktrip/jacktrip
-  - https://docs.google.com/document/d/1YLX8NatB_Ktdr24LyVg7h_P3zwG1lh1D0A0e733mCYo/edit
-- http://chrischafe.net/online-jamming-and-concert-technology-online-course/
+	- https://github.com/jacktrip/jacktrip
+	- https://docs.google.com/document/d/1YLX8NatB_Ktdr24LyVg7h_P3zwG1lh1D0A0e733mCYo/edit
+	- http://chrischafe.net/online-jamming-and-concert-technology-online-course/
 
 
 
