@@ -10,7 +10,7 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 
 ## **Part I, installation**:
 
-1. This is a clean install tutorial. If you already have a jack and jacktrip installation, I would reccomend first uninstalling those previous Jack and Jacktrip instals.
+1. This is a clean install tutorial. If you already have a jack and jacktrip installation, I would reccomend first uninstalling those previous Jack and Jacktrip installs.
 2. Download and install this version of [Jack](https://www.dropbox.com/s/ru3r7ddz53n2qn6/JackOSX.0.92_b3.zip?dl=1), and [Jacktrip](https://www.dropbox.com/s/u9tac9o4bvczip3/JackTrip.pkg?dl=1). Note that after installing Jack, you will need to restart your system (time to save those damn tabs!).
 
 ## **Part II, network configuration:**
@@ -34,13 +34,13 @@ This short tutorial describes the simplest process of getting Jacktrip running o
    1. We are assuming that you are using an audio interface which is already set as the default input and output, as per your "Audio MIDI Setup" Mac settings.
 3. At this point you can just click "start" and it should start the jack server 
    1. Do not mistake this with jacktrip server. Jacktrip relies on Jack, thus the name. Qjackctl is the GUI for jack that allows us to start this service. Jacktrip is a command line program that connects to jack server and to other users across the interwebs.
-   2. If things didn't run smooth up to this point then refer to the [links](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#part-v-solving-problems) at the bottom to search for more help. Good luck!
+   2. If things didn't run smooth up to this point then refer to the [links](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#link-resources) at the bottom to search for more help. Good luck!
 
 ## **Part IV, running jacktrip:**
 
 1. open the terminal (put on your hacker gloves first, if that's your thing)
 2. type jacktrip -v. It should spit out something like: "JackTrip VERSION: 1.1"
-   1. if that was not the case... again refer to the [links](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#part-v-solving-problems) at the bottom.
+   1. if that was not the case... again refer to the [links](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#link-resources) at the bottom.
 3. We are ready to connect. You have two options:
 
 - If you're the host for the jacktrip session you'll need to
@@ -61,6 +61,7 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 1. Once everything started, you can click the [Connect button](https://ccrma.stanford.edu/software/jacktrip/windows/jack-connect-button.png) on the qjackctl window
 2. A JackTrip group on the left (signal receiving) and another on the right (signal sending) should appear for every Jacktrip session that you are participating in, either as host or client.
 3. You can change these routing as you please.
+- If you'd like to manage more sources from your computer, say the audio from your DAW, you might consider looking into [audio routing alternatives](https://github.com/omarcostahamido/awesome-networked-media#routing) since jack pilot (thus jack router) is not easily accessible on Catalina with this installation method.
 
 ## **Part V, solving problems**:
 
@@ -69,7 +70,9 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 - Then, check for your audio system: are you receiving sound, are you sending sound, in other words, can you do your trivial audio-related tasks?
 - Only then check jack related software: did the jacktrip connection dropped, is jack server still running, are we using the same sample rate and buffer size settings?
 - Ask a friend to help you!
-- Visit these jacktrip-related link resources:
+- Visit the jacktrip-related link resources in the following [section](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#link-resources).
+
+## **Link Resources**:
 	- https://ccrma.stanford.edu/software/jacktrip/
 	- https://mdessen.com/portfolio/networked-music-performance-resources/
 	- https://github.com/jacktrip/jacktrip
