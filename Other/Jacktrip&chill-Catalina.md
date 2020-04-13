@@ -73,11 +73,16 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 - Visit the jacktrip-related link resources in the following [section](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/Jacktrip%26chill-Catalina.md#link-resources).
 
 ## **Link Resources**:
-	- https://ccrma.stanford.edu/software/jacktrip/
-	- https://mdessen.com/portfolio/networked-music-performance-resources/
-	- https://github.com/jacktrip/jacktrip
-	- https://docs.google.com/document/d/1YLX8NatB_Ktdr24LyVg7h_P3zwG1lh1D0A0e733mCYo/edit
-	- http://chrischafe.net/online-jamming-and-concert-technology-online-course/
+
+- https://github.com/jacktrip/jacktrip
+- https://ccrma.stanford.edu/software/jacktrip/
+- https://www.kadenze.com/courses/online-jamming-and-concert-technology-x/info
+- http://chrischafe.net/online-jamming-and-concert-technology-online-course/
+- https://mdessen.com/portfolio/networked-music-performance-resources/
+- https://docs.google.com/document/d/1YLX8NatB_Ktdr24LyVg7h_P3zwG1lh1D0A0e733mCYo/edit
+- https://docs.google.com/document/d/18pbu2xQRv521NKvHuYHjIVXRcLFqcDsqYnfKixyuyGg/edit
+- https://groups.google.com/forum/#!forum/jacktrip-users
+
 
 
 
