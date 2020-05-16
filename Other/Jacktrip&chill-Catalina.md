@@ -83,6 +83,7 @@ This short tutorial describes the simplest process of getting Jacktrip running o
 - https://docs.google.com/document/d/18pbu2xQRv521NKvHuYHjIVXRcLFqcDsqYnfKixyuyGg/edit
 - https://groups.google.com/forum/#!forum/jacktrip-users
 - http://www.haven2.com/video/JacktripStartupSequence.pptx
+- http://www.jacktrip.org/
 
 
 
