@@ -1,4 +1,4 @@
-# Ultra Fast Jacktrip Tutorial by Martin Jones
+# Ultra Short Jacktrip Tutorial by Martin Jones
 
 You can run JackTrip without Jack by using [RTaudio](https://github.com/thestk/rtaudio)
 
