@@ -18,5 +18,5 @@ Open Terminal on second machine, enter:
 
 replacing the above IP with the IP of the remote computer
 
-
+---
 from [jacktrip-users](https://groups.google.com/forum/?utm_medium=email&utm_source=footer#!msg/jacktrip-users/KrhojQxYy_w/rCPfcPjBAgAJ)
