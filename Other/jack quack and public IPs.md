@@ -19,7 +19,7 @@ Here is an interesting lesson for the day, that me and Ben Loveridge discovered 
     - depending if you have python 3 or not:
       - python3 -m http.server
       - python -m SimpleHTTPServer
-    - (by default it hosts on port 8000)
+    - (by default it hosts on port 8000, make sure you portforward that on your router)
     - open browser, retrieve your public IP
     - navigate to YOURPUBLICIP:8000
    
