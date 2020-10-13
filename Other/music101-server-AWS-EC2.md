@@ -32,6 +32,19 @@ No further support is provided.
 - `cd lib`
 - `~/pd-0.51-2/bin/pd -r 48000 -nogui server101.pd`
 - make sure you get your pulbic IP on AWS website, that's the one the clients will use to connect!
+<br>
+
+- MSP just added:
+
+```
+There's one more step to being able to get real-time prioirty
+(which might well prevent some dropping of packets).  Go to
+/etc/security/limits.conf
+
+and add these lines to the end:
+* - rtprio 99
+* - memlock 1000000000
+```
 
 ---
 What's that? You want to thank me? Well, you can actually donate when getting one of my free software on [gumroad](https://gumroad.com/och) :wink:
