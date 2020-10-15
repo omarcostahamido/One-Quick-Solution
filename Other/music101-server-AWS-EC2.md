@@ -16,8 +16,8 @@ No further support is provided.
 - ssh to your instance `ssh -i "YOUR-CREDS.pem" ec2-user@YOUR-EC2-ADDRESS` (as in _ec2-...amazonaws.com_)
   - if you want to [know more](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
 - `wget http://msp.ucsd.edu/Software/pd-0.51-3test1.src.tar.gz`
-- `tar xzf pd-0.51-2.src.tar.gz `
-- `cd pd-0.51-2/`
+- `tar xzf pd-0.51-3test1.src.tar.gz `
+- `cd pd-0.51-3test1/`
 - `sudo yum install automake`
 - `sudo yum install autoconf`
 - `sudo yum install libtool`
@@ -27,10 +27,10 @@ No further support is provided.
 - `make`
 - `cd ..`
 - `wget http://msp.ucsd.edu/tools/quacktrip/quack-and-netty-0.91-patches.zip`
-- `unzip quack-and-netty-0.9test4-patches.zip `
-- `cd quack-and-netty-0.9test4/`
+- `unzip quack-and-netty-0.91-patches.zip `
+- `cd quack-and-netty-0.91/`
 - `cd lib`
-- `~/pd-0.51-2/bin/pd -r 48000 -nogui server101.pd`
+- `~/pd-0.51-3test1/bin/pd -r 48000 -nogui server101.pd`
 - make sure you get your pulbic IP on AWS website, that's the one the clients will use to connect!
 <br>
 
