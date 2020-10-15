@@ -15,7 +15,7 @@ No further support is provided.
   - if you want to [know more](https://chmodcommand.com/chmod-400/)
 - ssh to your instance `ssh -i "YOUR-CREDS.pem" ec2-user@YOUR-EC2-ADDRESS` (as in _ec2-...amazonaws.com_)
   - if you want to [know more](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AccessingInstancesLinux.html)
-- `wget http://msp.ucsd.edu/Software/pd-0.51-2.src.tar.gz`
+- `wget http://msp.ucsd.edu/Software/pd-0.51-3test1.src.tar.gz`
 - `tar xzf pd-0.51-2.src.tar.gz `
 - `cd pd-0.51-2/`
 - `sudo yum install automake`
@@ -26,7 +26,7 @@ No further support is provided.
 - `sudo yum install alsa-lib-devel`
 - `make`
 - `cd ..`
-- `wget http://msp.ucsd.edu/tools/quacktrip/quack-and-netty-0.9test4-patches.zip`
+- `wget http://msp.ucsd.edu/tools/quacktrip/quack-and-netty-0.91-patches.zip`
 - `unzip quack-and-netty-0.9test4-patches.zip `
 - `cd quack-and-netty-0.9test4/`
 - `cd lib`
