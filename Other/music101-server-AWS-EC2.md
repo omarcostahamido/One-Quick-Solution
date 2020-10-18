@@ -46,6 +46,8 @@ and add these lines to the end:
 * - memlock 1000000000
 ```
 
+- you can now find instructions for linode [here](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/music101-server-linode.md)
+
 ---
 What's that? You want to thank me? Well, you can actually donate when getting one of my free software on [gumroad](https://gumroad.com/och) :wink:
 
