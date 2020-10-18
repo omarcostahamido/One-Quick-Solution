@@ -31,6 +31,17 @@ No further support is provided.
 - `~/pd-0.51-3test1/bin/pd -r 48000 -nogui server101.pd`
 <br>
 
+- MSP just added:
+
+```
+If [on Debian], the Pd community site has "deb" files here:
+https://puredata.info/downloads/pure-data/releases/0.51-1 - so you don't really have to compile pd on those flavors of linux.
+I think this is thanks to Iohannes Zmoelnig. To install Pd, just download the "deb" file and run:
+apt-get install <filename>
+```
+  
+<br>
+
 Tips:
 
 - you can also add a domain to your server in linode
