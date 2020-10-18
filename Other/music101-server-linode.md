@@ -6,7 +6,7 @@ No further support is provided.
 
 - This is pretty much the same process I've described [here](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/music101-server-AWS-EC2.md) for AWS EC2
 - create a linode account
-- launch your new server
+- launch your new server with Debian 10
   - for the purpose of this project I selected the most simple one
 - ssh to your instance `ssh root@YOUR-LINODE-ADDRESS`
 - `wget http://msp.ucsd.edu/Software/pd-0.51-3test1.src.tar.gz`
