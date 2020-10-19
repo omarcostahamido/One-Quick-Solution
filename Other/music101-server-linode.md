@@ -20,7 +20,6 @@ No further support is provided.
 -	`apt-get install libasound2-dev`
 - `./autogen.sh `
 - `./configure`
-- `sudo yum install alsa-lib-devel`
 - `make`
 - `cd ..`
 - `wget http://msp.ucsd.edu/tools/quacktrip/quack-and-netty-0.91-patches.zip`
