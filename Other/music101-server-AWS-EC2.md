@@ -46,7 +46,16 @@ and add these lines to the end:
 * - memlock 1000000000
 ```
 
+- actually prefixing the last command with sudo, will resolve this
+
 - you can now find instructions for linode [here](https://github.com/omarcostahamido/One-Quick-Solution_Patches/blob/master/Other/music101-server-linode.md)
+
+- tmux might come in handy when leaving programs running.
+  - `sudo yum install tmux`
+  - `tmux`
+  - `ctrl+b`, `d` to disconnect
+  - `tmux attach` to recconnect (with optional `-d`)
+
 
 ---
 What's that? You want to thank me? Well, you can actually donate when getting one of my free software on [gumroad](https://gumroad.com/och) :wink:
