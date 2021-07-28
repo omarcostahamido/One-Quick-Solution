@@ -11,6 +11,7 @@ Here is an interesting lesson for the day, that me and Ben Loveridge discovered 
   - you cannot connect without unique public IP running jacktrip -s
 - what does that mean, and how does that happen?
   - because there are only so many possible IP number combinations some carriers started aggregating multiple clients under the same public IP. This is called CGNAT, and our aussie friends have a simple and well written doc [here](https://www.aussiebroadband.com.au/help-centre/nbn/tech-support/cg-nat/).
+  - a NAT test page can be found [here](https://clients.dh2i.com/NatTest/).
 - how to know if you're affected or not?
   - when you're in this situation quacktrip will connect and disconnect, and there will be no packet count increase :/
   - a simple way to test if your machine is reachable on your public IP at a specific port, something especially useful to know when you'll be dealing with "jacktrip -s" (and that you can try on your own!):
