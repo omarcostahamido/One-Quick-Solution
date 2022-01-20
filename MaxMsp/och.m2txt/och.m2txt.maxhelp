@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 509.0, 299.0 ],
+		"rect" : [ 59.0, 100.0, 509.0, 322.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,24 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 0,
+					"patching_rect" : [ 217.0, 213.0, 217.0, 22.0 ],
+					"text" : "och.m2txt @name singlefile @onefile 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 8,
+					"linecount" : 12,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.5, 34.0, 450.5, 114.0 ],
-					"text" : "och.m2txt saves a max message as a .txt file, in the same directory as the patch.\nThe name of the .txt file defaults to \"text\" but this can easily be replaced by adding an argument to the object with the desired name (as well as replaced on the fly by sending the name to the second inlet). \nConsecutive messages sent to the first inlet will be saved as a .txt file with the name followed by an increasing number. Eg. : text00.txt text01.txt text02.txt...\nThis count numbering can be reset by sending a bang to the third inlet. \nHover over each inlet in an unlocked patch to review which is which."
+					"patching_rect" : [ 28.5, 34.0, 450.5, 167.0 ],
+					"text" : "och.m2txt saves a max message as a .txt file, in the same directory as the patch.\nThe name of the .txt file defaults to \"text\" but this can easily be replaced by adding an argument to the object with the desired name (as well as replaced on the fly by sending the name to the second inlet). \nConsecutive messages sent to the first inlet will be saved as a .txt file with the name followed by an increasing number. Eg. : text00.txt text01.txt text02.txt...\nThis count numbering can be reset by sending a bang to the third inlet. \nHover over each inlet in an unlocked patch to review which is which.\nThe new v2 introduces a new mode: saving all consecutive messages on the same file. This can be configured by setting the attribute @onefile to 1 (see below).\nThe name of the file can now also be set using the @name attribute.\nNote: remember that you must save your patch (and reopen it?) before using this!"
 				}
 
 			}
@@ -57,7 +68,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 28.5, 246.0, 200.0, 20.0 ],
+					"patching_rect" : [ 28.5, 276.0, 200.0, 20.0 ],
 					"text" : "dedicated to Eduardo Reck Miranda"
 				}
 
@@ -70,8 +81,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 339.0, 233.0, 140.0, 33.0 ],
-					"text" : "och.m2txt [v1] (2022)\nomarcostahamido.com",
+					"patching_rect" : [ 339.0, 263.0, 140.0, 33.0 ],
+					"text" : "och.m2txt [v2] (2022)\nomarcostahamido.com",
 					"textjustification" : 2
 				}
 
@@ -82,7 +93,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 208.25, 183.0, 95.0, 22.0 ],
+					"patching_rect" : [ 81.0, 213.0, 95.0, 22.0 ],
 					"text" : "och.m2txt myfile"
 				}
 
