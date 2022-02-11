@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "clear" ],
+					"patching_rect" : [ 357.5, 95.0, 51.0, 22.0 ],
+					"text" : "t b clear"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -58,7 +70,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 322.5, 189.0, 126.0, 22.0 ],
-					"text" : "tosymbol @separator "
+					"text" : "tosymbol @separator"
 				}
 
 			}
@@ -168,7 +180,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 343.5, 278.0, 140.0, 33.0 ],
-					"text" : "och.m2txt [v2.2] (2022)\nomarcostahamido.com",
+					"text" : "och.m2txt [v2.3] (2022)\nomarcostahamido.com",
 					"textjustification" : 2
 				}
 
@@ -223,7 +235,7 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "(bang) resets txt numbering count. next message to be received on the left in let will start from 0 again.",
+					"comment" : "(bang) resets txt numbering count. next message to be received on the left in let will start from 0 again. If in onefile mode, it will clear the memory.",
 					"id" : "obj-20",
 					"index" : 0,
 					"maxclass" : "inlet",
@@ -254,18 +266,6 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 389.5, 27.0, 79.0, 20.0 ],
 					"text" : "reset counter"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-15",
-					"maxclass" : "button",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 357.5, 60.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -343,16 +343,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 1 ],
-					"source" : [ "obj-13", 0 ]
+					"destination" : [ "obj-13", 2 ],
+					"midpoints" : [ 367.0, 152.246835708618164, 204.0, 152.246835708618164 ],
+					"source" : [ "obj-12", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-13", 2 ],
-					"midpoints" : [ 367.0, 152.246835708618164, 204.0, 152.246835708618164 ],
-					"source" : [ "obj-15", 0 ]
+					"destination" : [ "obj-6", 0 ],
+					"midpoints" : [ 399.0, 181.5, 25.0, 181.5 ],
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 1 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
@@ -391,7 +399,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-15", 0 ],
+					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
