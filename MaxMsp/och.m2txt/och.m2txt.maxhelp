@@ -82,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 339.0, 263.0, 140.0, 33.0 ],
-					"text" : "och.m2txt [v2.1] (2022)\nomarcostahamido.com",
+					"text" : "och.m2txt [v2.2] (2022)\nomarcostahamido.com",
 					"textjustification" : 2
 				}
 
