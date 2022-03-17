@@ -1,0 +1,19 @@
+{
+  "name": "code",
+  "version": "1.1.0",
+  "description": "",
+  "main": "och.mcue.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node och.mcue.js"
+  },
+  "keywords": [],
+  "homepage": "https://github.com/omarcostahamido/One-Quick-Solution",
+  "author": "Omar Costa Hamido (https://omarcostahamido.com)",
+  "license": "LicenseRef-LICENSE",
+  "dependencies": {
+    "express": "^4.17.1",
+    "localtunnel": "^2.0.2",
+    "socket.io": "^4.2.0"
+  }
+}
