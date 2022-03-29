@@ -40,6 +40,18 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"comment" : "(symbol) file path of the recorded temp audio clip",
+					"id" : "obj-8",
+					"index" : 0,
+					"maxclass" : "outlet",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 584.0, 73.0, 30.0, 30.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-30",
 					"linecount" : 4,
 					"maxclass" : "comment",
@@ -83,7 +95,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 14.0, 497.0, 130.0, 47.0 ],
-					"text" : "och.livesetdir\n[v1.0] (2022-03-26)\nomarcostahamido.com"
+					"text" : "och.livesetdir\n[v1.1] (2022-03-29)\nomarcostahamido.com"
 				}
 
 			}
@@ -142,7 +154,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 643.0, 479.5, 122.0, 35.0 ],
-					"presentation_linecount" : 2,
 					"text" : "fromsymbol @separator Samples"
 				}
 
@@ -1643,6 +1654,16 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-152", 0 ],
+					"order" : 0,
+					"source" : [ "obj-151", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"midpoints" : [ 652.5, 474.0, 621.989899039268494, 474.0, 621.989899039268494, 62.0, 593.5, 62.0 ],
+					"order" : 1,
 					"source" : [ "obj-151", 0 ]
 				}
 
