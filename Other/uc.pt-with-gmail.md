@@ -21,10 +21,12 @@ Nota: this guide was written in english because that is the default language of 
 - on the next screen: 
   - insert your email address again in the username field
   - insert your password in the password field
+  - chage "Port" to `995`
   - (optional) check "leave a copy..." if you want to keep a copy of the incoming emails on your [webmail](https://apps.uc.pt/mail)
+  - check "Always use a secure connection (SSL) when retrieving mail." option
   - (optional) check "Label incoming..." if you want gmail to automatically add this label to incoming messages on your @uc.pt address (recommended)
 - click "Add Account"
-<img width="650" alt="Screen Shot 2023-07-11 at 5 14 53 PM" src="https://github.com/omarcostahamido/One-Quick-Solution/assets/18335360/9d6d1e88-7c74-4d91-9d81-99b29d8ae8db">
+<img width="650" alt="Screen Shot 2023-10-22 at 8 42 30 PM" src="https://github.com/omarcostahamido/One-Quick-Solution/assets/18335360/4b2a9ff5-5d45-4e80-a683-03528b6ae883">
 
 
 It might prompt you to continue configuring this @uc.pt as an alias, which allows you to actually send emails, from your gmail, as the @uc.pt email address. Here are the steps to configure that:
